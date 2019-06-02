@@ -13,6 +13,10 @@ public class Implementation {
 		Something something = implService.getSomethingIDontYetHave();
 		return something;		
 	}
+	
+	public takeParameters(String param1, String param2, String param3) {
+		implService.takeParameters(param1, param2, param3);	
+	}
 	public String foot() {
 		return "foot";	
 	}
